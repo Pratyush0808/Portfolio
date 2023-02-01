@@ -1,0 +1,145 @@
+.bf{
+    height: 100%;
+    flex-direction: column;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0.3;
+}
+
+.top{
+  background-color: #00E7FF;
+  margin: 0;
+  position: relative;
+  padding: 10px;
+}
+.mid{
+  background-color: #CDFCF6;
+}
+.low{
+  background-color: #000000;
+}
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+.name{
+  font-size: 5.625em;
+  margin: 0;
+  color: #000000;
+  font-family: 'Sacramento', cursive;
+  line-height: 2;
+  padding-top:73px;
+  z-index: 2;
+  opacity: 2;
+}
+.skill-row{
+  width: 50%;
+  margin: 50px auto 100px;
+  text-align: left;
+  line-height: 2;
+}
+.ac{
+  margin: 0;
+  font-size: 13px;
+}
+.cmp{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.chil{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+/* .dp{
+   position: absolute;
+   height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  top: 13px;
+  left: 310px;
+} */
+
+.hd2{
+  font-size: 2.5rem;
+  color: #434242;
+  font-weight: normal;
+  margin: 0;
+  z-index: 2;
+}
+
+
+.top-c{
+  height: 50px;
+  position: absolute;
+  right: 10px;
+  top: 50px;
+  opacity: 0.8;
+  animation-name: top-c;
+  animation-duration: 16s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes top-c {
+  0%{
+    top:50px;
+    /* right:0px; */
+  }
+  50%{
+    top:50px;
+    right:1030px;
+  }
+  100%{
+    top:50px;
+    /* right:0px; */
+  }
+}
+
+.bottom-c{
+  height: 70px;
+  position: absolute;
+  left: 10px;
+  top: 200px;
+  opacity: 0.8;
+  animation-name: bottom-c;
+  animation-duration: 16s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes bottom-c {
+  0%{
+    top:200px;
+    /* right:0px; */
+  }
+  50%{
+    top:200px;
+    left:1030px;
+  }
+  100%{
+    top:200px;
+    /* right:0px; */
+  }
+}
+.cr{
+  margin-bottom: 0;
+  color: #FFFFFF;
+}
+
+.hd3{
+  color: #11999E;
+}
+.btn{
+  color: #FFFFFF;
+}
+.footer-link{
+  color: #FFFFFF;
+}
